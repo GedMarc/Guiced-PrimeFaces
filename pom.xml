@@ -13,7 +13,7 @@
     <groupId>com.guicedee.servlets</groupId>
     <artifactId>guiced-primefaces</artifactId>
     <packaging>jar</packaging>
-
+    <version>0.0.0_0-SNAPSHOT</version>
     <name>Guiced PrimeFaces</name>
 
     <description>Configures Guice for PrimeFaces </description>
