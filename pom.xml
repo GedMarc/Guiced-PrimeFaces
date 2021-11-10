@@ -6,8 +6,9 @@
 
     <parent>
         <groupId>com.guicedee</groupId>
-        <artifactId>guicedee-projects</artifactId>
+        <artifactId>dev-kit</artifactId>
         <version>0.0.0_0-SNAPSHOT</version>
+        <relativePath>../../../</relativePath>
     </parent>
 
     <groupId>com.guicedee.servlets</groupId>
@@ -19,18 +20,6 @@
     <description>Configures Guice for PrimeFaces </description>
 
     <url>https://github.com/GedMarc/Guiced-PrimeFaces</url>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.guicedee</groupId>
-                <artifactId>guicedee-bom</artifactId>
-                <version>${project.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
 
