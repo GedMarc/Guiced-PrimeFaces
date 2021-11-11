@@ -20,6 +20,10 @@
     <description>Configures Guice for PrimeFaces </description>
 
     <url>https://github.com/GedMarc/Guiced-PrimeFaces</url>
+    <properties>
+        <ignore.moditect>true</ignore.moditect>
+        <flatten.pom>false</flatten.pom>
+    </properties>
 
     <dependencies>
 
